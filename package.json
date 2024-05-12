@@ -1,5 +1,6 @@
 {
   "name": "node-pg",
+  "type": "module",
   "version": "1.0.0",
   "description": "Barebones node-postgresql app",
   "main": "app.js",
@@ -11,5 +12,8 @@
   "devDependencies": {
     "eslint-config-prettier": "^9.1.0",
     "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "pg": "^8.11.5"
   }
 }
